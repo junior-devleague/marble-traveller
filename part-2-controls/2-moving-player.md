@@ -4,7 +4,7 @@
 How do we move our player? We need to take user input and apply it as forces to our object. Since we need to add this functionality, it's time to create a script!
 
 ## JavaScript vs. UnityScript
-In Unity, developers have the choice of scripting in JavaScript or C#. We will be using JavaScript. However, Unity uses it's own similar to JavaScript language, UnityScript. You will begin to see the differences between the two.  
+In Unity, developers have the choice of scripting in JavaScript or C#. We will be using JavaScript. However, Unity uses its own similar to JavaScript language, UnityScript. You will begin to see the differences between the two.  
 
 In general, UnityScript:
 * Requires semi colons
@@ -46,7 +46,7 @@ var rb : Rigidbody;
 ```JavaScript
 rb = GetComponent.<Rigidbody>();
 ```
-14. It's time to apply our input as forces to this Rigidbody. Type in 'AddForce' in the editor. Select the word and press CMD + ' on your keyboard. This will bring up all of the relevant links for UnityScript. Read the descriptions and look for what we might want. In this case, we need AddForce(Vector3). Let's create a Vector3. A Vector3 will need x, y, and z values. Since we our player will not be going upwards, our y value is 0. Where will our x and z values come from? Store a Vector3 in a variable called movement. You should have the following:
+14. It's time to apply our input as forces to this Rigidbody. Type in 'AddForce' in the editor. Select the word and press CMD + ' on your keyboard. This will bring up all of the relevant links for UnityScript. Read the descriptions and look for what we might want. In this case, we need AddForce(Vector3). Let's create a Vector3. A Vector3 will need x, y, and z values. Since our player will not be going upwards, our y value is 0. Where will our x and z values come from? Store a Vector3 in a variable called movement. You should have the following:
 ```JavaScript
 var movement : Vector3 = Vector3(moveHorizontal, 0, moveVertical);
 ```
@@ -71,4 +71,25 @@ var speed : float;
 rb.AddForce(movement*speed);
 ```
 
-20. In Unity, public variables can be changed in the editor. This allows us to test different values and watch how our game changes quickly. Go back to the Unity main editor and look at your inspector for the Player Object. Under the Player Control script, the variable speed can take in numbers. Test out a few numbers for your speed and run the game. 
+20. In Unity, public variables can be changed in the editor. This allows us to test different values and watch how our game changes quickly. Go back to the Unity main editor and look at your inspector for the Player Object. Under the Player Control script, the variable speed can take in numbers. Test out a few numbers for your speed and run the game.
+
+At the end you should obtain the following:
+```JavaScript
+#pragma strict
+
+var rb: Rigidbody;
+var speed: int;
+
+function Start () {
+	rb = GetComponent.<Rigidbody>();
+}
+
+function FixedUpdate () {
+	var moveVertical : float = Input.GetAxis("Vertical");
+	var moveHorizontal : float = Input.GetAxis("Horizontal");
+
+	var movement : Vector3 = Vector3(moveHorizontal, 0	, moveVertical);
+	rb.AddForce(movement*speed);
+
+}
+``` 
