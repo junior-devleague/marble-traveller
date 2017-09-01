@@ -1,10 +1,6 @@
-# ancient-lands
+# Marble Traveller
 
-When you awaken, all is quiet...
-
-The scenery around you looks different...
-
-You feel a bit... round??
+Experience the world as a sphere!
 
 Create a game scene where you start off as a ball! Construct a scene with other objects that you can collide with and add player controls to move yourself around the scene.
 
@@ -16,7 +12,7 @@ Add a **Player**, **Player Controls**, **Collision Objects**, and a **Camera** t
 
 To complete this project, students should have the following:
 * Excellent listening skills
-* Ability to follow instructions! 
+* Ability to follow instructions!
 
 ## Your Challenge
 
