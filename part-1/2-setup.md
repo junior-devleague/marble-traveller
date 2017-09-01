@@ -1,4 +1,4 @@
-# Lecture 2 - Setting Up Your Environment
+# Setting Up Your Environment
 
 ## Introduction
 Create a new project and save it!
@@ -20,6 +20,6 @@ To save a project, complete the following.
 
 1. Go to File -> Save Scene As
 2. Give the scene a name.
-3. Select **Save**. 
+3. Select **Save**.
 
 *Unity will direct you to store this scene in the Assets folder that was automatically created when you first created the project.*

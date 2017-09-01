@@ -1,4 +1,4 @@
-# Lecture 1 - Unity Interface
+# Unity Interface
 
 ## Introduction
 Unity's interface, or main editor window, is made up of other windows that can be rearranged, detached, and grouped. Depending on personal preference, the look of the editor can change from one person to the next!
