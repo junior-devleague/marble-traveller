@@ -6,6 +6,13 @@ Unity's interface, or main editor window, is made up of other windows that can b
 ## Summary
 ![Unity Interface](https://github.com/junior-devleague/ancient-lands/blob/master/images/unity-interface.jpg)
 
+Section | Description
+------ | -----------
+Project Window | Shows available assets.
+Scene View | Navigate and edit scene.
+Hierarchy Window | Lists every object in scene.
+Inspector Window | View and edit properties of selected object.
+Toolbar | Essential working features.
 
 ## Resources
 * Unity Interface : https://docs.unity3d.com/Manual/LearningtheInterface.html
