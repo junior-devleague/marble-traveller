@@ -1,4 +1,4 @@
-# Create More Objects!
+# Creating a Game Scene
 
 ## Introduction
 Create objects in your scene and place them to make a game field. Create a player in your scene that will be a sphere. Add materials to have color contrast in the scene.
@@ -14,3 +14,7 @@ Create objects in your scene and place them to make a game field. Create a playe
 ## Creating the Game Scene
 
 1. Create other objects in your scene that will make up your game field. It can be futuristic, blocky, smooth..etc. Use your imagination and create what your game scene will look like with 3D Objects. Remember to name each object in your Hierarchy view (Wall1, Wall2...etc.). Use good naming conventions.
+
+## Assign materials
+
+1. Assign materials to your objects and change the colors.
