@@ -30,6 +30,8 @@ offset = transform.position - player.transform.position;
 transform.position = player.transform.position + offset;
 ```
 
+5. Instead of using the Update() function, we can use the LateUpdate() function to have the camera update its position as late as possible to ensure that it is updating after the player has moved. Change the Update() function to LateUpdate(). 
+
 At the end, you should obtain the following:
 ```JavaScript
 #pragma strict
