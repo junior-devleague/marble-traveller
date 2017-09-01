@@ -3,6 +3,8 @@
 ## Introduction
 In the real world, we can't just point our fingers at something and tell it to have a color. Colors are found on materials. In this same way, we can apply color to objects in Unity by assigning the object with a **Material**.
 
+![Adding Materials](https://github.com/junior-devleague/ancient-lands/blob/master/images/adding-materials.jpg)
+
 ## Summary
 To add a material, complete the following.
 
