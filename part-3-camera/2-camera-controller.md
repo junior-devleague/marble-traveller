@@ -21,13 +21,13 @@ What are we trying to do here?
 We want to know how far the player is from the camera.
 At every frame, we want to update the camera's position to equal the player's position plus how far the camera was from the player initially. How can we transform this statement into code?
 
-1. Create a variable called **player** that will store a ```GameObject```.
+1. Create a variable called **player** that will store a ```GameObject```. This is a public function, so have this go at the very top, after the #pragma strict line.
 2. Create a private variable called **offset** that will store a ```Vector3```.
 3. In the Start() function, obtain the difference in position between the camera's position and the player's position. Store this into the ```offset``` variable. Hint: Research ```transform.position```. If transform.position refers to the camera's position, how do you get the player's position? You should obtain the following:
 ```JavaScript
 offset = transform.position - player.transform.position;
 ```
-4. In the Update() function, update the camera's position to equal the player's position + the initial distance between them. You should obtain the following:
+4. In the Update() function, update the camera's position to equal the player's position + the initial distance between them. We stored this somewhere... Which variable did we store this 'initial distance' in? You should obtain the following:
 ```JavaScript
 transform.position = player.transform.position + offset;
 ```
@@ -50,3 +50,4 @@ function LateUpdate () {
 	transform.position = player.transform.position + offset;
 }
 ```
+6. Run the game and see how the camera follows the object! 
