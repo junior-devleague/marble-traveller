@@ -15,7 +15,7 @@ Collectible items can be any shape and size! In the games that we see, collectib
 
 2. Right click on this newly created Cube in the Hierarchy view. Rename the cube 'Pickup'.
 3. Focus the view on this object by pressing 'F' for frame current view. Make sure you have the cube selected in your Hierarchy view.
-4. We need to make this object look special! Create a new material to make this object have a different color. Go to your Project View and click Create -> Material.
+4. We need to make this object look special! Create a new material to make this object have a different color. Go to your Project View and click Create -> Material. Once this is created, drag the material to your object from the Project View to the object in Scene View. 
 
 ![New Material](https://github.com/junior-devleague/ancient-lands/blob/master/images/new-material.jpg)
 
