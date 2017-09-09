@@ -39,9 +39,9 @@ Hint: Research, OnTriggerEnter, CompareTag, and SetActive!
 
 8. In the Rigidbody Component, check the box "Is Kinematic". A Kinematics Rigidbody will not respond to Physics forces. Thus, it will not be pulled down by gravity but can still be moved by the transformations we specify.
 
-![Kinematic](https://github.com/junior-devleague/ancient-lands/blob/master/images/is-trigger.jpg)
+![Kinematic](https://github.com/junior-devleague/ancient-lands/blob/master/images/is-kinematic.jpg)
 
 9. Run the game! Does the player object pick them up as expected?
 
 ## Stretch Goals
-1. Make the object get bigger onTriggerEnter! 
+1. Make the object get bigger onTriggerEnter!
